@@ -1,0 +1,32 @@
+doctype html
+head
+  title Sale Hunter
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  meta(http-equiv='X-UA-Compatible' content='ie=edge')
+  // --icon-
+  link(rel='icon' href='./Sale Hunter Semi Horizontal.png')
+
+.container(style='width: 650px;padding-left: 20px;padding-right: 20px;margin-left: auto;margin-right: auto;')
+  img.logo(
+    src='./Sale Hunter Semi Horizontal.png'
+    alt='sale Hunter logo '
+    style='display: block;margin-right: auto;margin-left: auto;margin-top: 30px;')
+  .header(style='background-color: #8342fe;margin: 20px 0;height: 88px;text-align: center;color: white;font-family: Raleway semibold;')
+    h1.main-title(style='padding-top: 20px;') Reset Password
+  .content(style='margin-top: 40px;padding-left: 30px;padding-right: 30px;')
+    p.main-paragraph(style='color: #515151;margin-bottom: 50px;')
+      | Hi, #{fullname}
+      br
+      |           Here is the verification link to reset your account password:
+    a.main-button(
+      style='background-color:  #8342fe;color: white;padding: 10px 60px;border-radius: 10px;margin-left: auto;margin-right: auto;display: table;margin-bottom: 50px;'
+      href='#') Verify
+    p.main-paragraph(style='color: #515151;margin-bottom: 50px;')
+      | Thank you,
+      br
+      |           Sale Hunter Team.
+  .footer(style='background-color: #f3f3f3;text-align: center;color: #515151;height: 100px;')
+    p.copy-right(style='font-family: Segoe UI semibold;font-size: 14px;padding-top: 27px;')
+      | Copyright &copy; 2022 Sale Hunter, All rights reserved.
+    p This email was intended for User (#{email})
